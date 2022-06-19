@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+nav{
+	background-color: black;
+	display: flex;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+.logo{
+	width: 90px;
+}
+li{
+	list-style-type: none;
+	/*margin: 10px 10px 10px 10px;*/
+	padding: 0;
+	display: inline;
+	
+}
+a {
+	color: antiquewhite;
+    text-decoration: none;
+}
+.container{
+	font-size: 100px;
+	background-image: url(j.jpg);
+  background-size: cover;
+	color: antiquewhite;
+	max-width: 1400px;
+	max-height: 10000px;
+}
+h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 100px;
+	background-image: url(l.jpg);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 45px;
+      margin-bottom: 0.5px;
+
+}
+.bn30 {
+  border: 5em;
+  cursor: pointer;
+  outline: none;
+  font-size: 12px;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  padding: 0.7em 2em;
+  border-radius: 65px;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+  -webkit-transition: box-shadow 0.25s;
+  transition: box-shadow 0.25s;
+  color: white;
+  cursor: pointer;
+}
+
+.bn30 .text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+}
+
+.bn30:after {
+  content: "";
+  border-radius: 18px;
+  position: absolute;
+  margin: 4px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #0e0e10;
+   cursor: pointer;
+}
+
+.bn30:hover {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+}
+
+.bn30:hover .text {
+  background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+}
+.imgBx img{
+	padding: 0px 55px 50px 55px;
+	width: 170px;
+	height: 150px;
+	border-radius: 50%;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.timetable{
+  background-size: cover;
+  text-align: center;
+  padding: 4px;
+  background: BLACK;
+}
